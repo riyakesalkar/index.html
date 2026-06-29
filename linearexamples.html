@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Types Of Leaves</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    padding:20px;
+}
+
+.container{
+    max-width:400px;
+    margin:auto;
+}
+
+/* Heading */
+.page-title{
+    text-align:center;
+    font-size:30px;
+    color:#0d47a1;
+    margin-bottom:25px;
+    font-weight:bold;
+}
+
+/* Card */
+.card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    margin-bottom:25px;
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Image Container */
+.image-box{
+    width:100%;
+    height:250px;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+
+.image-box img{
+    max-width:100%;
+    max-height:100%;
+    width:auto;
+    height:auto;
+    object-fit:contain;
+    display:block;
+}
+.content{
+    padding:18px;
+}
+
+.content h2{
+    color:#222;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.content p{
+    color:#555;
+    line-height:1.6;
+    font-size:15px;
+}
+
+/* Link Button */
+.link{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    background:#0d6efd;
+    color:#fff;
+    padding:14px;
+    font-size:17px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.link:hover{
+    background:#084ec2;
+}
+
+/* Mobile */
+@media (max-width:480px){
+
+.page-title{
+    font-size:26px;
+}
+
+.image-box{
+    height:200px;
+}
+
+.content h2{
+    font-size:20px;
+}
+
+.link{
+    font-size:16px;
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="page-title">Linear Leaves</h1>
+
+    <!-- Card 1 -->
+    <div class="card">
+
+        <div class="image-box">
+            <img src="https://ayurvedicmedicinalplants.in/sites/default/files/plants/MUSTA(NAGARA).jpg" alt="Musta">
+        </div>
+
+        <div class="content">
+            <h2>Musta</h2>
+            <p><b>Botanical name:</b> Cyperus rotundus</p>
+            <p><b>Family:</b> Cyperaceae</p>
+
+            
+        </div>
+
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+
+        <div class="image-box">
+            <img src="https://c8.alamy.com/comp/ADCEF0/medicinal-plant-spice-cumin-leaves-carum-cavi-ADCEF0.jpg" alt="Jeerak">
+        </div>
+
+        <div class="content">
+            <h2>Jeerak</h2>
+            <p><b>Botanical name:</b> Cuminum Cyminum</p>
+            <p><b>Family:</b> Apiaceae</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
